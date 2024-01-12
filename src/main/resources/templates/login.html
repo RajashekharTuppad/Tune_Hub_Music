@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+<title>Login_Page</title>
+ <link rel="stylesheet" th:href="@{/css/login.css}" />
+</head>
+<body>
+  <h1>!.. User_Login Page...! </h1>
+  
+  <form action="validate" method="post">
+  <h2>Please Login Here</h2>
+  
+  <label>Email:</label>
+  <input type="email" name ="email"/>
+  <br>
+  
+   <label>Password:</label>
+  <input type="password" name ="password"/>
+  <br>
+  
+  <input type="submit" value="Login"/>
+  
+  </form>
+</body>
+</html>
