@@ -5,19 +5,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class NavController {
-@GetMapping("/login")
-public String login() {
-	return "login";
-}
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
 
-@GetMapping("/registration")
-  public String registration() {
-	return "registration";
-}
+    @GetMapping("/registration")
+    public String registration() {
+        return "registration";
+    }
 
-@GetMapping("/newSong")
-public String newSong() {
-	return "newSong";
-	
-}
+    @GetMapping("/newSong")
+    public String newSong() {
+        return "newSong";
+    }
 }

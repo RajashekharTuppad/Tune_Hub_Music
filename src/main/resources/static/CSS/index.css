@@ -1,35 +1,21 @@
-/* styles.css */
+/* index.css */
 @charset "UTF-8";
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('music.jpg'); /* Replace 'music.jpg' with your image file */
-    background-size: cover;
-    background-position: center;
+    background-color: #004080;
     margin: 0;
     padding: 20px;
     text-align: center;
-}
-
-.container {
-    max-width: 400px;
-    margin: 50px auto;
-    background-color: rgb(0, 255, 255) ; 
-    background:transparent; 
-     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-
-.container h1 {
-    color: #ffffff;
-    margin-bottom: 20px;
+    background-image: url('music.jpg'); /* Replace 'background-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
 }
 
 a {
     display: block;
     width: 80%;
-    margin: 0 auto 20px;
+    margin: 20px auto;
     padding: 10px;
     text-decoration: none;
     color: #fff;
@@ -39,7 +25,5 @@ a {
 }
 
 a:hover {
-    background-color: #2a72c0;
+    background-color: #0056b3;
 }
-
-
